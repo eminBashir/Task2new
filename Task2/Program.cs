@@ -12,32 +12,22 @@
             //Console.WriteLine($"{x} + {y} = {x+y}");
             //Console.WriteLine($"{x} - {y} = {x - y}");
             //Console.WriteLine($"{x} * {y} = {x * y}");
-
+            
             #endregion
 
             #region  Task2
-            Console.WriteLine("Saniyeni daxil edin: ");
-            int gunSaniye = 86400;
-            int verilenSaniye = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Saniyeni daxil edin: ");
+            //int gunSaniye = 86400;
+            //int verilenSaniye = int.Parse(Console.ReadLine());
 
-            int gunuTap = verilenSaniye / gunSaniye;
-            int deqiqeTap = verilenSaniye % gunSaniye;
-            int saat = deqiqeTap / 3600;
-            int verilenSaniye2 = deqiqeTap % 3600;
-            int deqiqe = verilenSaniye2 / 60;
-            int saniye = verilenSaniye2 % 60;
-
-            Console.WriteLine(gunuTap + " Gun");
-            Console.WriteLine(saat + " Saat");
-            Console.WriteLine(deqiqe + " Deqiqe");
-            Console.WriteLine(saniye + " Saniye");
+            //int gunuTap = verilenSaniye / gunSaniye;
+            //int saatTap = verilenSaniye % gunSaniye;
 
 
-
-
-
-
-
+            //Console.WriteLine( " Gun");
+            //Console.WriteLine( " Saat");
+            
+            
             #endregion
 
             #region Task3
